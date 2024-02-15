@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+루비 테스트를 위한 프로젝트
 
-Things you may want to cover:
+구 버전의 루비 사용 예정
 
-* Ruby version
+ruby : 2.4.1
 
-* System dependencies
+rails 프로젝트 입니다
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rbenv 사용할 예정
