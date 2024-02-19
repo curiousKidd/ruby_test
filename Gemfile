@@ -5,6 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'andand'
+gem 'rest-client'
+gem 'swagger-blocks'
+gem 'redis-rails', '~> 5.0', '>=5.0.2'
+gem 'sidekiq', '5.2.9'
+gem 'redis-namespace'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6', '>= 5.1.6.2'
