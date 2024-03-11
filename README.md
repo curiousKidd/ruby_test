@@ -22,21 +22,30 @@ rails 프로젝트 입니다
 
 * ...
 
-# BUILD
-#로컬 macOS 환경에 ruby 설치
-$ brew update
-$ brew install rbenv && brew upgrade ruby-build
-$ rbenv install 2.4.1
-$ rbenv rehash
-$ ruby --version#ruby gem dependency 관리툴 설치
-$ gem install bundler```
-### [서버 실행]
-```#프로젝트의 gemfile.lock 에 따라 gem 설치$ bundle install```
-
 rbenv 로 루비 버전 관리 및 설치
-sudo RUBY_CFLAGS="-DUSE_FFI_CLOSURE_ALLOC" rbenv install 2.4.1
-rbenv local 2.4.1
 
-gem install thrift -v '0.11.0.0' --source 'https://rubygems.org/' -- --with-cppflags="-Wno-compound-token-split-by-macro"
+`#로컬 macOS 환경에 ruby 설치`
+
+`$ brew update`
+
+`$ brew install rbenv && brew upgrade ruby-build`
+
+`$ rbenv install 2.4.1`
+
+sudo RUBY_CFLAGS="-DUSE_FFI_CLOSURE_ALLOC" rbenv install 2.4.1
 
 chown -R [개인계정] /Users/[계정]/.rbenv
+
+`$ rbenv rehash`
+
+rbenv local 2.4.1
+
+`$ ruby --version`
+
+rbenv versions
+
+`#ruby gem dependency 관리툴 설치`
+
+`$ gem install bundler`
+
+gem install thrift -v '0.11.0.0' --source 'https://rubygems.org/' -- --with-cppflags="-Wno-compound-token-split-by-macro"
